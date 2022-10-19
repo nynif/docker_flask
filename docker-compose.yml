@@ -1,0 +1,9 @@
+services: 
+  web: 
+    build: app_local
+    ports: 
+      - '5000:5000'
+    environment:
+      FLASK_ENV: development
+    volumes:
+      - ./app_local:/app
