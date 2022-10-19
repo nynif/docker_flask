@@ -2,3 +2,4 @@ __pycache__
 output/
 app/
 .env/
+.DS_Store
